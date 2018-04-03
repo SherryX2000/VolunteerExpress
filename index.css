@@ -1,0 +1,243 @@
+
+//irregular shapes from css-tricks @ https://css-tricks.com/examples/ShapesOfCSS/
+//drop down buttons from W3schools@https://www.w3schools.com/howto/howto_css_dropdown.asp
+
+body{
+    background-color: white;
+    font-size: 18px;
+    width: 100%;
+
+}
+
+.main-title{
+  position: relative;
+  bottom: 100px;
+}
+
+#hello{
+    font-family: 'Bungee', cursive;
+    text-align: center;
+}
+
+#express{
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+}
+
+
+
+.shapes{
+  position: relative;
+  bottom: 50px;
+  left: 80px;
+}
+
+
+#trapezoid {
+	border-bottom: 150px solid blue;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	height: 10px;
+	width: 100px;
+  margin-left: 150px;
+  float: none;
+}
+
+#trapezoid p{
+  position: relative;
+  top: 170px;
+  left:15px;
+}
+
+.shapes p{
+
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+
+
+}
+
+
+.pentagon {
+    position: relative;
+    width: 97px;
+    border-width: 90px 32px 0;
+    border-style: solid;
+    border-color: #01ff70 transparent;
+    margin-left: 900px;
+}
+.pentagon:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -153px;
+    left: -32px;
+    border-width: 0 81px 63px;
+    border-style: solid;
+    border-color: transparent transparent #01ff70;
+}
+
+.why .title h2,
+.stories .title h2{
+  font-family: 'Chicle', cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.reason{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+
+.reason img{
+  width: 500px;
+  height:auto;
+  border-radius: 7%;
+}
+
+.subtitle{
+  background-color: goldenrod;
+  padding: 0 7px;
+  width: 400px;
+}
+
+
+.reason .text h4{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+
+#third{
+  position: relative;
+  top: 20px;
+  left:50px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.reason .text{
+  text-align: center;
+}
+
+.reason .text span{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 2rem;
+    color: white;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+#cross{
+  text-decoration: line-through;
+  margin-right: 14px;
+}
+
+.reason .text p,
+li{
+  font-family: 'Abel', sans-serif;
+  font-size: 1.5rem;
+}
+
+
+.stories .container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.column img{
+  width: 300px;
+  height: auto;
+}
+/*!!!!!!!!!add hover property on image to show text when hover*/
+
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img{
+  width: 200px;
+  height: auto;
+}
+
+footer .contact{
+  display: flex;
+  margin-top: 30px;
+}
+
+#copy{
+  margin-left: 20%;
+  font-family: 'Abel', sans-serif;
+
+}
+
+
+.contact p{
+  padding: 5px 250px;
+  font-family: 'Abel', sans-serif;
+  font-weight: bolder;
+
+
+
+}
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: dimgray;
+    color: white;
+    padding: 36px;
+    font-size: 2rem;
+    border: none;
+    cursor:zoom-in;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 360px;
+    box-shadow: 2px 16px 32px 2px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 24px 32px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: lightsteelblue;
+}
